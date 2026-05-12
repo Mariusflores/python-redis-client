@@ -10,6 +10,21 @@ inline commands from client to server, and simplified RESP
 Designed primarily for testing, experimentation, and stress‑testing
 the baby-redis server.
 
+## Results
+Total operations attempted: 12100
+Successful operations:      11900
+Failed operations:          200
+Stress test completed in 5.48 seconds.
+There were errors.
+
+Total operations attempted: 12000
+Successful operations:      12000
+Failed operations:          0
+Stress test completed in 5.36 seconds.
+All good?
+
+As the results show, the baby-redis server should handle the load of 120 threads attempting 100 operations each, but that seems to be reaching its limits.
+
 ## Status
 
 **In active development.**  

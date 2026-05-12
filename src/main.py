@@ -2,7 +2,7 @@ from .client.baby_redis_client import BabyRedisClient
 import threading
 import time
 
-num_threads = 150
+num_threads = 121
 ITERATIONS_PER_THREAD = 100
 
 success_count = 0
